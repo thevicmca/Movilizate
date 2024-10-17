@@ -3,16 +3,10 @@ function sendWhatsAppMessage() {
     const inicio = document.getElementById('inicio').value;
     const destino = document.getElementById('destino').value;
     const cantidad = document.getElementById('cantidad').value;
-    const username = localStorage.getItem('username');  // Obtener el nombre del usuario guardado
-
-    if (!username) {
-        alert('Inicia sesión primero.');
-        location.href = 'index.html';
-        return;
-    }
+    
 
     const phone = "+50492325149";  // Reemplaza con el número del conductor
-    const message = `Hola, soy ${username}. Estoy por ${inicio} con destino a ${destino}, cantidad total de pasajeros: ${cantidad}.`;
+    const message = `Hola estoy por ${inicio} con destino a ${destino}, cantidad total de pasajeros: ${cantidad}.`;
     
     const whatsappURL = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
