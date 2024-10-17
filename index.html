@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movilizate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Hacia dónde deseas ir?</h1>
+        <p>Selecciona las opciones para enviar un mensaje al conductor por WhatsApp.</p>
+
+        <div class="dropdowns">
+            <label for="inicio">Elige el inicio del viaje:</label>
+            <select id="inicio">
+                <option value="Sandy Bay">Sandy Bay</option>
+                <option value="West End">West End</option>
+                <option value="Coxen Hole">Coxen Hole</option>
+                <option value="West Bay">West Bay</option>
+                <option value="Anthonis Key">Anthonis Key</option>
+                <option value="Los fuertes">Los fuertes</option>
+                <option value="French Harbour">French Harbour</option>
+                <option value="Flowers Bay">Flowers Bay</option>
+                <option value="Gravel Bay">Gravel Bay</option>
+                <option value="Cañaberal">Cañaberal</option>
+                <option value="Dixon Cove">Dixon Cove</option>
+                <option value="Mall Megaplaza">Mall Megaplaza</option>
+                <option value="BIP Sandy Bay">BIP Sandy Bay</option>
+                <option value="BIP Dixon Cove">BIP Dixon Cove</option>
+                <option value="BIP Monte Placentero">BIP Monte Placentero</option>
+                <option value="Petro Sun Coxen Hole">Petro Sun Coxen Hole</option>
+                <option value="Petro Sun West End">Petro Sun West End</option>
+                <option value="Aeropuerto">Aeropuerto</option>
+                <option value="Galaxy Wave">Galaxy Wave</option>
+                <option value="Dream Ferry">Dream Ferry</option>
+                <option value="Spanish Town">Spanish Town</option>
+                <option value="Thicket">Thicket</option>
+                <option value="Roatan 1">Roatan 1</option>
+                <option value="Mud Hole">Mud Hole</option>
+                <option value="Corozal">Corozal</option>
+                <option value="Hottest Sparrow">Hottes Sparrow</option>
+                <option value="Palmeto Bay">Palmeto Bay</option>
+                <option value="Brick Bay">Brick Bay</option>
+                <option value="Viaje VIP">Viaje VIP</option>
+                
+
+            </select>
+            <br><br>
+            <label for="destino">Elige el destino:</label>
+            <select id="destino">
+                <option value="Sandy Bay">Sandy Bay</option>
+                <option value="West End">West End</option>
+                <option value="Coxen Hole">Coxen Hole</option>
+                <option value="West Bay">West Bay</option>
+                <option value="Anthonis Key">Anthonis Key</option>
+                <option value="Los fuertes">Los fuertes</option>
+                <option value="French Harbour">French Harbour</option>
+                <option value="Flowers Bay">Flowers Bay</option>
+                <option value="Gravel Bay">Gravel Bay</option>
+                <option value="Cañaberal">Cañaberal</option>
+                <option value="Dixon Cove">Dixon Cove</option>
+                <option value="Mall Megaplaza">Mall Megaplaza</option>
+                <option value="BIP Sandy Bay">BIP Sandy Bay</option>
+                <option value="BIP Dixon Cove">BIP Dixon Cove</option>
+                <option value="BIP Monte Placentero">BIP Monte Placentero</option>
+                <option value="Petro Sun Coxen Hole">Petro Sun Coxen Hole</option>
+                <option value="Petro Sun West End">Petro Sun West End</option>
+                <option value="Aeropuerto">Aeropuerto</option>
+                <option value="Galaxy Wave">Galaxy Wave</option>
+                <option value="Dream Ferry">Dream Ferry</option>
+                <option value="Spanish Town">Spanish Town</option>
+                <option value="Thicket">Thicket</option>
+                <option value="Roatan 1">Roatan 1</option>
+                <option value="Mud Hole">Mud Hole</option>
+                <option value="Corozal">Corozal</option>
+                <option value="Hottest Sparrow">Hottes Sparrow</option>
+                <option value="Palmeto Bay">Palmeto Bay</option>
+                <option value="Brick Bay">Brick Bay</option>
+                <option value="Viaje VIP">Viaje VIP</option>
+            </select>
+            <br><br>
+            <label for="cantidad">Elige la cantidad de pasajeros:</label>
+            <select id="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <br><br><br>
+        <button onclick="sendWhatsAppMessage()">Enviar a WhatsApp</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
